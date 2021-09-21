@@ -1,6 +1,7 @@
 import "tailwindcss/tailwind.css";
 import "../global.css";
 import "swiper/css/bundle";
+
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"

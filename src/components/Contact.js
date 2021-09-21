@@ -18,7 +18,9 @@ function Contact() {
           <textarea className="flex p-3 w-[40%] h-40 rounded-md shadow-lg outline-none justify-start" placeholder="Message" />
         </div>
         <div className="mt-5 flex w-full justify-center">
-          <div className="flex bg-[#CF404D] w-[20%] h-10 shadow-xl justify-center items-center text-white rounded-md hover:cursor-pointer hover:shadow-2xl">Send Message</div>
+          <div className="flex bg-[#CF404D] w-[20%] h-10 shadow-xl justify-center items-center text-white rounded-md hover:cursor-pointer hover:shadow-2xl">
+            Send Message
+          </div>
         </div>
       </div>
     </div>

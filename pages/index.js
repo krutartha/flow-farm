@@ -5,10 +5,11 @@ import Technology from "../src/components/Technology";
 import Crops from "../src/components/Crops";
 import Contact from "../src/components/Contact";
 import Map from "../src/components/Map";
+import Footer from "../src/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full bg-[#FAFAFA] ">
+    <div className="font-sans w-full bg-[#FAFAFA]">
       <Navbar />
       <div className="w-full">
         <Main />
@@ -16,6 +17,7 @@ export default function Home() {
         <Crops />
         <Contact />
         {/* <Map /> */}
+        <Footer />
       </div>
     </div>
   );

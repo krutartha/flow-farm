@@ -14,17 +14,17 @@ function CropSlider() {
       {crops.map((i) => {
         return (
           <div className="w-full">
-            <Swiper className="mt-10 p-10 w-full h-full" navigation={true}>
+            <Swiper className="mt-10 p-10 w-full h-full " navigation={true}>
               {i.map((j) => {
                 return (
                   <SwiperSlide>
-                    <div className="flex w-full h-[16rem]">
+                    <div className="flex w-full h-[16rem] justify-center items-center">
                       <div className="w-[40%]">
-                        <img className="object-fit" src={j.imgUrl} />
+                        <img className="object-cover" src={j.imgUrl} />
                       </div>
                       <div className="p-3 w-[60%]">
-                        <div className="flex w-full justify-center text-3xl">{j.name}</div>
-                        <div className="mt-10 flex w-full justify-center text-md">{j.text}</div>
+                        <div className="flex w-full justify-center text-3xl sm:text-2xl lg:text-3xl">{j.name}</div>
+                        <div className="mt-10 flex w-full justify-center text-md sm:text-sm sm:mt-2">{j.text}</div>
                       </div>
                     </div>
                   </SwiperSlide>

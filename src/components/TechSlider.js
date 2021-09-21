@@ -15,13 +15,13 @@ function TechSlider({ name, text1, text2, imgUrl, height }) {
         {technology.map((i) => {
           return (
             <SwiperSlide key={i}>
-              <div className="flex w-full h-[26rem]">
+              <div className="flex w-full h-[26rem] justify-center items-center">
                 <div className="w-[60%]">
                   <img src={i.imgUrl} />
                 </div>
                 <div className="p-3 w-[40%]">
-                  <div className="flex w-full justify-center text-4xl">{i.name}</div>
-                  <div className="mt-10 flex w-full justify-center text-lg">{i.text}</div>
+                  <div className="flex w-full justify-center text-4xl sm:text-2xl">{i.name}</div>
+                  <div className="mt-10 flex w-full justify-center text-lg sm:text-sm sm:mt-2">{i.text}</div>
                 </div>
               </div>
             </SwiperSlide>
