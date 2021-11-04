@@ -1,0 +1,7 @@
+-- Things to do
+    -- Map
+    -- About us page
+    -- Crops page
+    -- Add text and pictures for existing crops
+    -- 
+

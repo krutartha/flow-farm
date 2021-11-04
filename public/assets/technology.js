@@ -9,4 +9,9 @@ export const technology = [
     imgUrl: "/assets/grow_bag_in_polyhouse.jpg",
     text: "This technique allows us to control a single plant and have it grow into a wonderful vegetable bearing plant that has a very dynamic size and shape to it. Tasty Tomatoes, English Cucumber, Egg plant and any other tall plant can be grown using this technique.",
   },
+  {
+    name: "DWC",
+    imgUrl: "/assets/grow_bag_in_polyhouse.jpg",
+    text: "An essential method to grow healthy and regular supply of crops using Deep Water Culture (DWC) to mass produce is by suspending the roots in a tank with one feet deep water which contains highly rich nutrients. The plants are made to float using styrofoam sheets. This method is also referred to as Deep Flow Technique(DFT), Floating Raft Technology(FRT), or raceway.",
+  },
 ];

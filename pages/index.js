@@ -4,8 +4,11 @@ import Main from "../src/components/Main";
 import Technology from "../src/components/Technology";
 import Crops from "../src/components/Crops";
 import Contact from "../src/components/Contact";
-import Map from "../src/components/Map";
 import Footer from "../src/components/Footer";
+
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("../src/components/Map"), { ssr: false });
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
         <Technology />
         <Crops />
         <Contact />
-        {/* <Map /> */}
+        <Map />
         <Footer />
       </div>
     </div>
