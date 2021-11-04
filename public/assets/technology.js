@@ -11,7 +11,7 @@ export const technology = [
   },
   {
     name: "DWC",
-    imgUrl: "/assets/grow_bag_in_polyhouse.jpg",
+    imgUrl: "/assets/dwc.jpeg",
     text: "An essential method to grow healthy and regular supply of crops using Deep Water Culture (DWC) to mass produce is by suspending the roots in a tank with one feet deep water which contains highly rich nutrients. The plants are made to float using styrofoam sheets. This method is also referred to as Deep Flow Technique(DFT), Floating Raft Technology(FRT), or raceway.",
   },
 ];

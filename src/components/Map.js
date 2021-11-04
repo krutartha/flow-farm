@@ -5,7 +5,7 @@ const position = [12.722727340408463, 77.43520626745796];
 const Map = () => {
   return (
     <div className="flex items-center justify-center h-[40rem] p-5">
-      <MapContainer center={position} zoom={14} scrollWheelZoom={false} className="h-full w-[50%] z-0">
+      <MapContainer center={position} zoom={14} scrollWheelZoom={true} className="h-full w-[50%] z-0">
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
