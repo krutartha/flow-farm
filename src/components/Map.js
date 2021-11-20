@@ -1,5 +1,13 @@
-import { MapContainer, TileLayer, Marker, Popup, Tooltip } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "leaflet";
+
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require("../../public/assets/logo.png"),
+  iconUrl: require("../../public/assets/logo.png"),
+  shadowUrl: require("../../public/assets/logo.png"),
+});
 
 const position = [12.722727340408463, 77.43520626745796];
 const Map = () => {
@@ -11,9 +19,9 @@ const Map = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position}>
-          <Tooltip direction="top" offset={[0, 20]} opacity={0.5} permanent>
-            <a href="maps.google.com">Flow Farm Hydroponics</a>
-          </Tooltip>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
         </Marker>
       </MapContainer>
     </div>

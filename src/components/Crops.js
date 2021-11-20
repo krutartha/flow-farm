@@ -6,9 +6,8 @@ function Crops() {
     <div className="w-full">
       {/* text */}
       <div className="flex-col w-full items-center justify-center">
-        <div className="py-5 px-16 w-full flex mt-6 justify-between bg-[#CF404D] items-center">
-          <div className="text-4xl text-white">Order our best vegetables</div>
-          <div className="text-md text-white border border-white rounded-sm p-3">Contact Us</div>
+        <div className="flex py-5 px-16 w-full mt-6 justify-between bg-[#CF404D] items-center">
+          <div className="flex items-center text-4xl text-white">Crops</div>
         </div>
       </div>
       {/* slider */}
