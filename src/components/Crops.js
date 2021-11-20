@@ -6,7 +6,7 @@ function Crops() {
     <div className="w-full">
       {/* text */}
       <div className="flex-col w-full items-center justify-center">
-        <div className="flex py-5 px-16 w-full mt-6 justify-between bg-[#CF404D] items-center">
+        <div className="flex py-5 px-16 w-full mt-6 justify-between bg-[#365569] items-center">
           <div className="flex items-center text-4xl text-white">Crops</div>
         </div>
       </div>
