@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 function TechSlider({ name, text1, text2, imgUrl, height }) {
   return (
     <div className="w-full md:w-[80%]">
-      <Swiper className="p-10 w-full h-full" navigation={true}>
+      <Swiper className="p-10 w-full h-full " navigation={true}>
         {technology.map((i) => {
           return (
             <SwiperSlide key={i}>

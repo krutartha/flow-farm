@@ -1,13 +1,16 @@
 import React from "react";
 import CropSlider from "./CropSlider";
 
-function Crops() {
+function Crops({ id }) {
   return (
-    <div className="w-full">
+    <div className="w-full" id={id}>
       {/* text */}
       <div className="flex-col w-full items-center justify-center">
-        <div className="flex py-5 px-16 w-full mt-6 justify-between bg-[#365569] items-center">
-          <div className="flex items-center text-4xl text-white">Crops</div>
+        <div className="flex py-5 px-16 w-full mt-6 justify-center bg-[#35403A] items-center">
+          <div className="mt-2">
+            <div className="flex w-full items-center justify-center text-4xl text-white">Crops</div>
+            <div className="mt-1 text-lg text-white">Looking for more? We got you!</div>
+          </div>
         </div>
       </div>
       {/* slider */}

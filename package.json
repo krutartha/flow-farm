@@ -19,6 +19,7 @@
     "react-leaflet": "^3.2.2",
     "react-leaflet-markercluster": "^3.0.0-rc1",
     "react-leaflet-universal": "^2.2.1",
+    "react-scroll": "^1.8.4",
     "react-slick": "^0.28.1",
     "react-typical": "^0.1.3",
     "slick-carousel": "^1.8.1",

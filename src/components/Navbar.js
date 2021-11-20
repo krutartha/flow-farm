@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [menu, setMenu] = useState("hidden");
@@ -10,7 +11,7 @@ function Navbar() {
     }
   };
   return (
-    <div className="bg-[#091c28] text-white inset-0 z-10 sticky top-0 flex p-6 w-full h-20 items-center justify-between">
+    <div className="bg-[#202426] text-white inset-0 z-10 sticky top-0 flex p-6 w-full h-20 items-center justify-between">
       <div className="w-full md:w-[15%]">
         <a href="/">
           <img className="object-fit" src="/assets/logo.png" />
@@ -19,13 +20,18 @@ function Navbar() {
       {/* buttons */}
       <div className="hidden text-md md:flex">
         {/* Technology */}
-        <div class="btn">Technology</div>
+        <Link className="btn" activeClass="actBtn" to="technology" spy={true} smooth={true} offset={-70} duration={1000}>
+          Technology
+        </Link>
+
         {/* crops */}
-        <div class="btn">
-          <a href="/crops">Crops</a>
-        </div>
+        <Link className="btn" activeClass="actBtn" to="crops" spy={true} smooth={true} offset={-70} duration={1000}>
+          Crops
+        </Link>
         {/* contanct */}
-        <div class="btn">Contact Us</div>
+        <Link className="btn" activeClass="actBtn" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>
+          Contact Us
+        </Link>
         {/* pages */}
       </div>
       <div className="md:hidden">
