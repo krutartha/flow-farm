@@ -20,7 +20,10 @@ const Map = ({ id }) => {
         />
         <Marker position={position}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            Google Maps:{" "}
+            <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/cd26rQ17jHytYiFe7">
+              Flow Farm Technologies
+            </a>
           </Popup>
         </Marker>
       </MapContainer>
