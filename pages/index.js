@@ -13,7 +13,7 @@ const Map = dynamic(() => import("../src/components/Map"), { ssr: false });
 
 export default function Home() {
   return (
-    <div className="font-sans w-full bg-[#4C594F] text-white">
+    <div className="font-sans w-full bg-[#FAFAFA] ">
       <Head>
         <title>Flow Farm Technologies</title>
         <link rel="icon" href="/assets/logo.png" />

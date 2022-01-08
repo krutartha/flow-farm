@@ -11,8 +11,8 @@ function Navbar() {
     }
   };
   return (
-    <div className="bg-[#202426] text-white inset-0 z-10 sticky top-0 flex p-6 w-full h-20 items-center justify-between">
-      <div className="w-full md:w-[15%]">
+    <div className="bg-[#091c28] text-white inset-0 z-10 sticky top-0 flex p-6 w-full h-20 items-center justify-between">
+      <div className="w-[35%] md:w-[15%]">
         <a href="/">
           <img className="object-fit" src="/assets/logo.png" />
         </a>
