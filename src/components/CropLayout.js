@@ -2,7 +2,7 @@ import React from "react";
 
 function CropLayout({ cropByTech }) {
   return (
-    <div className="w-full h-[41rem] overflow-scroll">
+    <div className="w-full h-auto">
       {cropByTech.map((i) => {
         return (
           //outer div

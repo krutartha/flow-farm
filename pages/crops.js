@@ -21,10 +21,8 @@ export default function CropsPage() {
           </div>
         </div>
         {/* text */}
-        <div className="w-full">
-          <CropLayout cropByTech={cropByTech} />
-          <Footer />
-        </div>
+        <CropLayout cropByTech={cropByTech} />
+        <Footer />
       </div>
     </div>
   );
