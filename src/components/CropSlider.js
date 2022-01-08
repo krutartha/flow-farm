@@ -10,7 +10,7 @@ SwiperCore.use([Navigation]);
 
 function CropSlider() {
   return (
-    <div className="w-[80%]">
+    <div className="w-[90%] md:w-[80%]">
       {crops.map((i) => {
         return (
           <div className="w-full">
