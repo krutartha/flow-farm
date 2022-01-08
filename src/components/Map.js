@@ -12,8 +12,8 @@ L.Icon.Default.mergeOptions({
 const position = [12.722727340408463, 77.43520626745796];
 const Map = ({ id }) => {
   return (
-    <div className="flex items-center justify-center h-[40rem] pt-8" id={id}>
-      <MapContainer center={position} zoom={14} scrollWheelZoom={true} className="h-full w-[50%] z-0">
+    <div className="flex items-center justify-center h-[30rem] pt-8 md:h-[40rem]" id={id}>
+      <MapContainer center={position} zoom={14} scrollWheelZoom={true} className="h-full w-full z-0 md:w-[50%]">
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

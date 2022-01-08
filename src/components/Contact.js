@@ -22,12 +22,12 @@ function Contact({ id }) {
         </div>
         <div className="mt-5 flex w-full justify-center">
           <div className="flex bg-[#365569] w-[60%] h-10 shadow-xl justify-center items-center text-white rounded-md hover:cursor-pointer hover:shadow-2xl md:w-[40%]">
-            Send Message
+            Send My Message
           </div>
         </div>
       </div>
-      <div className="flex w-full items-center justify-center">
-        <div className="mt-5 flex w-[20%] justify-center ">
+      <div className="hidden md:flex w-full items-center justify-center">
+        <div className="mt-5 flex w-[20%] justify-center">
           <Link
             className="flex bg-[#365569] h-10 shadow-xl rounded-full justify-center items-center text-white hover:cursor-pointer hover:shadow-2xl md:w-[40%]"
             to="map"

@@ -3,7 +3,7 @@ export const crops = [
     {
       name: "Lettuce",
       imgUrl: "/assets/crops/lettuce.jpeg",
-      text: "One of the most famous vegetables in the world. Lettuce is a cool weather crop, grows sweet and tender. Common varieties, like Red and Green, Romaines, Iceberg, Oak Leafs, Green Leaf, and Mesclun mixes. Lettuce have a high water content. The minerals and vitamins found in it include calcium, iron, magnesium, phosphorus, potassium, sodium, and zinc along with vitamin B6, and vitamins C, A, E, and K. Health benefits include∂ Anti-inflammatory Agent, Lower Cholesterol Levels, Induce Sleep, Antioxidant Agent, Antimicrobial Agent, Help Relieve Anxiety. ",
+      text: "One of the most famous vegetables in the world. Lettuce is a cool weather crop, grows sweet and tender. Common varieties, like Red and Green, Romaines, Iceberg, Oak Leafs, Green Leaf, and Mesclun mixes. Lettuce have a high water content. The minerals and vitamins found in it include calcium, iron, magnesium, phosphorus, potassium, sodium, and zinc along with vitamin B6, and vitamins C, A, E, and K. Health benefits include Anti-inflammatory Agent, Lower Cholesterol Levels, Induce Sleep, Antioxidant Agent, Antimicrobial Agent, Help Relieve Anxiety. ",
     },
   ],
   [
